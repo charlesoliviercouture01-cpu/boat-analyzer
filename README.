@@ -1,0 +1,22 @@
+# Boat Data Analyzer
+
+Application web Python permettant d'analyser des données moteur
+pour vérifier la conformité et détecter des situations de triche.
+
+## Fonctionnalités
+- Analyse TPS
+- Analyse Lambda / AFR (détection automatique)
+- Pression carburant
+- Températures moteur
+- Détection du début de triche avec délai
+- Résultat PASS / CHEAT
+- Export CSV
+
+## Installation
+
+### 1. Installer Python 3.10+
+https://www.python.org/downloads/
+
+### 2. Installer les dépendances
+```bash
+pip install -r requirements.txt
